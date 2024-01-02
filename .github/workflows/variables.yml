@@ -1,11 +1,12 @@
 name: Workflow Demop
 on: push
 env:
-  ACCESS_ID: kode-kloud-123456
+  ACCESS_ID: $ACCESS_ID
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Echo ACCESS_ID
       run: echo $ACCESS_ID
