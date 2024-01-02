@@ -1,11 +1,7 @@
-name: Workflow Demo
-
-on: 
-  push
-
+name: Workflow Demop
+on: push
 env:
   ACCESS_ID: kode-kloud-123456
-
 jobs:
   build:
     runs-on: ubuntu-latest
